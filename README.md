@@ -23,8 +23,8 @@ int main() {
 ```
 # Example (Compilation) with Make
 
-  Step 1: goto Makefile and edit starting from line 3 - 5 and change it to your source file name but do not change the extension
-  Step 2: type in your terminal "make <your_source_file_name>" make sure that you place the header, object file in the same folder
-  Step 3: run your program by typing ./<your_source_file_name>
+  Step 1: goto Makefile and edit starting from line 3 - 5 and change it to your source file name but do not change the extension.<br>
+  Step 2: type in your terminal "make <your_source_file_name>" make sure that you place the header, object file in the same folder.<br>
+  Step 3: run your program by typing ./<your_source_file_name><br>
   
 # Enjoy
