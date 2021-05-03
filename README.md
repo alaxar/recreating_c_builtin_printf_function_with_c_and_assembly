@@ -1,4 +1,4 @@
-# Recreting C Builtin printf function with C and Assembly Language
+# Recreating C Builtin printf function with C and Assembly Language
 I have tried to recreate a function called printf which can be found in libc library, it is standard builtin output function, I wrote this code just to show how libc souce is written, when I started programming with C I was so curious about how those builtin I/O functions work, I tired many things to see their source file but it wasn't successful, to your surprise you can't find their source on your directory they are placed as object file almost translated into machine code, these functions works by linking your source with the appropriate .o file, but now I wrote you this just to show you how libc functions are written eg. printf, scanf, puts, gets...
 
 # how to run
