@@ -6,9 +6,9 @@ I have tried to recreate a function called printf which can be found in libc lib
 I wrote you a sample.c file just to show how you can include in your own source code, you can test with sample.c file or you can create your own source file
 
 # Example (Source Code)
+```
 #include "print_s.h"
 
-code {
 int main() {
     // load your string into a variable either in a pointer or array, it doesn't matter
     char *your_text = "Alazar";
@@ -20,7 +20,7 @@ int main() {
     print_s(your_text, n);
     return 0;
 }
-}
+```
 # Example (Compilation) with Make
 
   Step 1: goto Makefile and edit starting from line 3 - 5 and change it to your source file name but do not change the extension
